@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yeu Em</title>
+  <link rel="stylesheet" href="new.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <button id="play-music">Bấm để bật nhạc 🎵</button>
+    <audio id="bg-music" loop>
+      <source src="LoveYouWithAllMyHeartQueenOfTearsOst-Crush-14204489.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+      document.getElementById("play-music").addEventListener("click", function () {
+        let music = document.getElementById("bg-music");
+        music.play();
+        this.style.display = "none"; // Ẩn nút sau khi nhạc bắt đầu
+      });
+    </script>
+
+    <h1>For You 💖</h1>
+    <div class="postcard1"></div>
+    <div class="postcard">
+      <div class="letter"></div>
+      <p>
+        <span>Gửi bé iu!,</span>
+        <br />
+        Hôm nay là ngày valentine 14/2 rồi, mới đó mà nhanh em nhỉ.<br />
+        Nói ra hơi sến nhưng mà anh có đôi lời muốn nói với em.
+        Anh cảm thấy rất may mắn khi có người yêu vừa xinh, vừa dễ thương như em.
+        Đôi lúc anh nhìn mắt em và nghĩ rằng wow, sao mình lại có được em ấy nhỉ?
+        Bởi vậy anh rất trân trọng những gì chúng ta đang có và sẽ cố gắng hết sức để giữ nó.
+        Cám ơn em vì đã luôn ở cạnh anh và cùng anh đi qua quãng đường không dài cũng không ngắn vừa qua.
+        Chúc chúng ta sẽ cùng nhau bền bỉ bước tiếp và vượt qua các thử thách sắp tới nhé.
+        Yêu em! 💖
+        <br />
+        <span class="ullu">
+          Forever Yours,
+          <br />
+          Kiet</span>
+      </p>
+      <div class="address">
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>
